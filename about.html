@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - EFO HealthCare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body class="bg-gradient-to-r from-green-100 via-blue-100 to-purple-100 min-h-screen">
+
+<!-- Navigation Bar -->
+<nav class="sticky top-0 bg-indigo-900 shadow-md z-50">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold text-white">EFO HealthCare</h1>
+
+
+<!-- Hamburger Icon -->
+<button id="nav-toggle" class="lg:hidden text-white focus:outline-none">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+    </svg>
+</button>
+
+    
+<!-- Mobile Sidebar -->
+<div id="mobile-menu" class="fixed inset-y-0 right-0 bg-indigo-900 w-40 transform translate-x-full transition-transform duration-300 ease-in-out">
+    <button id="close-menu" class="absolute top-4 right-4 text-white focus:outline-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <ul class="flex flex-col items-start space-y-6 p-6">
+      <li><a href="index.html" class="text-white hover:text-yellow-300">Home</a></li>
+      <li><a href="doctors.html" class="text-white hover:text-yellow-300">Doctors</a></li>
+      <li><a href="Book Appointment.html" class="text-white hover:text-yellow-300">Book Appointment</a></li>
+      <li><a href="about.html" class="text-white hover:text-yellow-300">About</a></li>
+      <li><a href="contact.html" class="text-white hover:text-yellow-300">Contact</a></li>
+      <li><a href="login.html" class="text-white hover:text-yellow-300">Login</a></li>
+      <li><a href="profile.html" class="text-white hover:text-yellow-300">Profile</a></li>
+    </ul>
+  </div>
+
+    
+<!-- Desktop Menu -->
+    <ul class="hidden lg:flex space-x-6">
+        <li><a href="index.html" class="text-white hover:text-yellow-300">Home</a></li>
+        <li><a href="doctors.html" class="text-white hover:text-yellow-300">Doctors</a></li>
+        <li><a href="Book Appointment.html" class="text-white hover:text-yellow-300">Book Appointment</a></li>
+        <li><a href="about.html" class="text-white hover:text-yellow-300">About</a></li>
+        <li><a href="contact.html" class="text-white hover:text-yellow-300">Contact</a></li>
+        <li><a href="login.html" class="text-white hover:text-yellow-300">Login</a></li>
+        <li><a href="profile.html" class="text-white hover:text-yellow-300">Profile</a></li>
+      </ul>
+    </div>
+</nav>
+
+
+<!-- About Section -->
+<section class="py-10 bg-white shadow-md rounded-lg mx-6 my-10">
+  <div class="container mx-auto px-6 lg:px-20">
+      <h2 class="text-4xl font-bold text-indigo-900 mb-6 text-center">
+          About Us
+      </h2>
+      <div class="text-lg text-gray-700 space-y-6 leading-relaxed">
+        <p>
+            Since our inception in 2010, <span class="font-semibold text-indigo-700">EFO Healthcare</span> has been dedicated to delivering exceptional healthcare services with professionalism, innovation, and compassion. Over the years, we have established ourselves as a trusted name in the healthcare sector, committed to improving the well-being of the communities we serve.
+        </p>
+        <p>
+            Our mission is to make high-quality healthcare accessible to all, combining advanced medical technologies, highly skilled professionals, and a patient-first approach. We take pride in offering comprehensive healthcare solutions tailored to meet the unique needs of every individual.
+        </p>
+        <h3 class="text-2xl font-bold text-indigo-800 mt-4">
+            Our State-of-the-Art Facilities:
+        </h3>
+        <ul class="list-disc pl-5 space-y-2">
+            <li>
+                <span class="font-semibold text-indigo-700">Hospital Exterior</span>: Our hospital buildings are designed to provide a welcoming and calming atmosphere, reflecting our commitment to your well-being.
+            </li>
+            <li>
+                <span class="font-semibold text-indigo-700">Laboratory Excellence</span>: Equipped with the latest diagnostic tools, our laboratories deliver precise and timely results to support accurate treatments.
+            </li>
+            <li>
+                <span class="font-semibold text-indigo-700">Patient-Centered Care Rooms</span>: Thoughtfully designed spaces ensure that patients and their families feel comfortable and cared for during their visits.
+            </li>
+        </ul>
+        <h3 class="text-2xl font-bold text-indigo-800 mt-4">
+            Our Dedicated Team:
+        </h3>
+        <ul class="list-disc pl-5 space-y-2">
+            <li>
+                <span class="font-semibold text-indigo-700">Surgical Rooms</span>: Our cutting-edge operating theatres are equipped with advanced surgical technologies to handle even the most complex procedures.
+            </li>
+            <li>
+                <span class="font-semibold text-indigo-700">Pharmacy Services</span>: Our on-site pharmacy ensures that patients have immediate access to prescribed medications, saving valuable time.
+            </li>
+        </ul>
+        <p>
+            With a decade of experience and a commitment to innovation, we continue to redefine the healthcare experience, making it more seamless, reliable, and patient-centered. From personalized treatment plans to leveraging AI-driven diagnostics, we are shaping the future of healthcare.
+        </p>
+    </div>
+<br>
+      <!-- About Images -->
+      <div class="grid grid-cols-3 gap-4">
+        <img src="Images/Exterior.jpeg" alt="Hospital Exterior" class="rounded-lg shadow-md">
+        <img src="Images/Laboratory.jpeg" alt="Laboratory Equipment" class="rounded-lg shadow-md">
+        <img src="Images/Medical Team.jpeg" alt="Medical Team" class="rounded-lg shadow-md">
+        <img src="Images/Patient Care Room.jpeg" alt="Patient Care Room" class="rounded-lg shadow-md">
+        <img src="Images/Pharmacy Counter.jpeg" alt="Pharmacy" class="rounded-lg shadow-md">
+        <img src="Images/Surgical Room.jpeg" alt="Surgical Room" class="rounded-lg shadow-md">
+    </div>
+</div>
+      <div class="mt-6 text-center">
+          <span class="text-xl font-semibold text-indigo-800">Your health is our priority.</span>
+          <p class="text-lg text-gray-600 mt-2">
+              Together, we strive for a healthier future.
+          </p>
+      </div>
+  </div>
+</section>
+
+
+<footer class="bg-indigo-900 text-white py-6">
+    <div class="container mx-auto text-center">
+        <p class="mb-4">&copy; 2024 EFO HealthCare. All rights reserved.</p>
+        <div class="flex justify-center space-x-4">
+            <!-- WhatsApp -->
+            <a href="https://wa.me/your-number" target="_blank" class="text-white hover:text-green-500">
+                <i class='bx bxl-whatsapp text-2xl'></i>
+            </a>
+            <!-- Instagram -->
+            <a href="https://instagram.com/your-profile" target="_blank" class="text-white hover:text-pink-500">
+                <i class='bx bxl-instagram text-2xl'></i>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://linkedin.com/in/your-profile" target="_blank" class="text-white hover:text-blue-400">
+                <i class='bx bxl-linkedin text-2xl'></i>
+            </a>
+            <!-- Twitter -->
+            <a href="https://twitter.com/your-profile" target="_blank" class="text-white hover:text-blue-300">
+                <i class='bx bxl-twitter text-2xl'></i>
+            </a>
+            <!-- Facebook -->
+            <a href="https://facebook.com/your-profile" target="_blank" class="text-white hover:text-blue-600">
+                <i class='bx bxl-facebook text-2xl'></i>
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="Navigation.js"></script>
+
+
+
+</body>
+</html>
+
